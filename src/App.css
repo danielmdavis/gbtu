@@ -1,38 +1,153 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
 }
 
-.App-link {
-  color: #61dafb;
+a, ul, li {
+  background-color: white !important;
+}
+.top-bar-container {
+  width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+body {
+  margin:0;
+  padding:0;
+}
+
+.title-bar {
+  position:fixed;
+  width:100%;
+  margin-top:0;
+}
+nav {
+  position:fixed;
+}
+.logo-small {
+  float: right;
+  padding: 4px;
+}
+.title-bar {
+  padding: 0 .5rem;
+  top: 0px;
+}
+.title-bar-title {
+  position: relative;
+  top: 10px;
+  padding: 4px;
+}
+
+/* Medium-Up Navigation */
+@media only screen and (min-width: 40rem) {
+
+  .sticky {
+  width: 100%;
+  height: 80%;
+}
+
+  .logo-wrapper {
+    position: relative;
   }
-  to {
-    transform: rotate(360deg);
+  .logo-wrapper .logo {
+    width: 92px;
+    height:  92px;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: -6px;
+    margin-left: -46px;
+  }
+.top-bar {
+  background-color: white !important;
+  height: 80px;
+  box-shadow: 1px 1px 5px .1px #ccc;
+  width: 100%;
+  /* opacity: 80%; */
+}
+
+  // Right part
+  .top-bar-right {
+    background-color: white !important;
+    width: 50%;
+    padding-left: 60px;
+  }
+
+  .top-bar-right {
+    float:  left;
+  }
+
+  // Left part
+  .top-bar-left {
+    background-color: white !important;
+    width:  50%;
+    padding-right: 60px;
+  }
+
+  .top-bar-left {
+    float:  right;
+  }
+
+  .bar-button {
+    margin: 0px 20px !important;
+  }
+  .bar-logo {
+    height: 100px;
+    margin: 0px 20px -30px 30px;
+    top: -20px;
+  }
+  .banner-image {
+    width: 100%;
+  }
+  .title {
+    --pos: 100px;
+    text-align: left !important;
+    justify-content: left !important;
+    color: darkred;
+    font-weight: bold;
+    position: relative;
+    top: calc(-4.75 * var(--pos));
+    left: var(--pos);
+    font-size: 70px;
+    z-index: -1;
+  }
+  .subtitle {
+    color: darkred;
+    font-weight: bold;
+  }
+  .alt-subtitle {
+    color: white;
+    font-weight: bold;
+    background-color:darkgray;
+    width: 100%;
+    height: 55px;
+    margin-bottom: 0px;
+  }
+
+  .footer {
+    /* border: 2px solid black; */
+    /* width: 400px; */
+    text-align: left !important;
+    justify-content: left !important;
+    position: relative;
+    left: 100px;
+    font-size: 14px;
+    font-family: Helvetica;
+    color: darkgray;
+  }
+
+  .main-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main-text {
+    text-align: left !important;
+    justify-content: left !important;
+    align-items: center !important;
+    width: 40%;
+    font-size: 18px;
+    line-height: 40px;
+    font-family: Georgia !important;
   }
 }
