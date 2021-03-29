@@ -89,7 +89,8 @@ nav {
   }
 
   .bar-button {
-    margin: 0px 20px !important;
+    margin: -10px -5px !important;
+    height: 70px;
   }
   .bar-logo {
     height: 100px;
