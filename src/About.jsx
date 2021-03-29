@@ -30,7 +30,6 @@ function About() {
         </div>
 
       </nav>
-      <img className="banner-image" src={TopBanner}/>
       <h1 className='title'>About Test.</h1>
       <br/>
       <h2 className='subtitle'>A shared problem calls for a collective response.</h2>

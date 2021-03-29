@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
-import Landing from './Landing.js';
-import About from './About.js';
+import Landing from './Landing.jsx';
+import About from './About.jsx';
 
 
 class Routes extends Component {
@@ -10,8 +10,10 @@ class Routes extends Component {
 
       return (
         <Router>
-            <Route path="/" component={Landing} />
-            <Route path="/about/" component={About} />
+          <Switch>
+            <Route path="/gbtu/about" component={About} />
+            <Route path="/gbtu/" component={Landing} />
+          </Switch>
         </Router>
       )
   }
