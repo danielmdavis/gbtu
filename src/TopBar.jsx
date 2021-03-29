@@ -1,5 +1,6 @@
 import React from 'react'
 import './App.css';
+import { Link } from 'react-router-dom';
 import Logo from './GBTU_LOGO_600.png';
 import Button from '@material-ui/core/Button';
 
@@ -10,11 +11,19 @@ function TopBar() {
 
       <div class="top-bar-left">
           <ul class="vertical medium-horizontal dropdown menu" data-dropdown-menu>
-            <img className="bar-logo" src={Logo} />
-            <Button className="bar-button" variant="outlined" size="large">Know Your Rights</Button>
-            <Button className="bar-button" variant="outlined" size="large">Organize with Us</Button>
-            <Button className="bar-button" variant="outlined" size="large">About</Button>
-            <Button className="bar-button" variant="outlined" size="large">En Español</Button>
+              <img className="bar-logo" src={Logo} />
+            <Link to='/gbtu/about'>
+              <Button className="bar-button" variant="outlined" size="large">Know Your Rights</Button>
+            </Link>
+            <Link to='/gbtu/about'>
+              <Button className="bar-button" variant="outlined" size="large">Organize with Us</Button>
+            </Link>
+            <Link to='/gbtu/about'>
+              <Button className="bar-button" variant="outlined" size="large">About</Button>
+            </Link>
+            <Link to='/gbtu/about'>
+              <Button className="bar-button" variant="outlined" size="large">En Español</Button>
+            </Link>
             <ul class="submenu menu vertical medium-horizontal" data-submenu></ul>
           </ul>
       </div>
