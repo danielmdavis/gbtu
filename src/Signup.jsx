@@ -33,15 +33,6 @@ function Signup() {
       </script>
 
 
-
-      <br/><br/>
-      <UnityItem
-        title='Our primary goal is to support the development of tenant-led unions that can be a militant organized force agitating for their own material needs.'
-        body='Though we engage in coalition work, our organizing must be independent of NGOs, foundations, and government-funded groups in order to build power that is responsive to and led by tenants. We are committed to base building, taking leadership from the poorest, and resisting the power of real estate capital that destroys our homes and our communities.'
-        />
-
-
-
       <br/><br/>
       <br/><br/>
       <img className="bar-logo" src={Logo}/>
