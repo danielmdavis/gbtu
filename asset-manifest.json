@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/gbtu/static/css/main.c0e7e6dd.chunk.css",
-    "main.js": "/gbtu/static/js/main.5bdd8d6f.chunk.js",
-    "main.js.map": "/gbtu/static/js/main.5bdd8d6f.chunk.js.map",
+    "main.js": "/gbtu/static/js/main.fb99c4bd.chunk.js",
+    "main.js.map": "/gbtu/static/js/main.fb99c4bd.chunk.js.map",
     "runtime-main.js": "/gbtu/static/js/runtime-main.007b0e75.js",
     "runtime-main.js.map": "/gbtu/static/js/runtime-main.007b0e75.js.map",
     "static/css/2.9a72e83e.chunk.css": "/gbtu/static/css/2.9a72e83e.chunk.css",
@@ -15,7 +15,8 @@
     "static/css/main.c0e7e6dd.chunk.css.map": "/gbtu/static/css/main.c0e7e6dd.chunk.css.map",
     "static/js/2.5862df98.chunk.js.LICENSE.txt": "/gbtu/static/js/2.5862df98.chunk.js.LICENSE.txt",
     "static/media/GBTU_LOGO_600.938e37dd.png": "/gbtu/static/media/GBTU_LOGO_600.938e37dd.png",
-    "static/media/finebergbannercrop.837fd462.png": "/gbtu/static/media/finebergbannercrop.837fd462.png",
+    "static/media/GBTU_LOGO_600_gray.79caeb1d.png": "/gbtu/static/media/GBTU_LOGO_600_gray.79caeb1d.png",
+    "static/media/finebergbannerredux.09814b68.png": "/gbtu/static/media/finebergbannerredux.09814b68.png",
     "static/media/genericprotestingfade.c54f38db.png": "/gbtu/static/media/genericprotestingfade.c54f38db.png"
   },
   "entrypoints": [
@@ -23,6 +24,6 @@
     "static/css/2.9a72e83e.chunk.css",
     "static/js/2.5862df98.chunk.js",
     "static/css/main.c0e7e6dd.chunk.css",
-    "static/js/main.5bdd8d6f.chunk.js"
+    "static/js/main.fb99c4bd.chunk.js"
   ]
 }
