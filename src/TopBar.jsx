@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css';
 import { Link } from 'react-router-dom';
-import Logo from './GBTU_LOGO_600.png';
+import Logo from './GBTU_LOGO_600_gray.png';
 import Button from '@material-ui/core/Button';
 
 function TopBar() {

@@ -4,7 +4,7 @@ import './App.css';
 import TopBar from './TopBar.jsx';
 import Logo from './GBTU_LOGO_600.png';
 import TopBanner from './genericprotestingfade.png';
-import BottomBanner from './finebergbannercrop.png';
+import BottomBanner from './finebergbannerredux.png';
 import Button from '@material-ui/core/Button';
 
 function Landing() {
