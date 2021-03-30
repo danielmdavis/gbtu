@@ -11,11 +11,13 @@ function TopBar() {
 
       <div class="top-bar-left">
           <ul class="vertical medium-horizontal dropdown menu" data-dropdown-menu>
+            <Link to='/gbtu/'>
               <img className="bar-logo" src={Logo} />
+            </Link>
             <Link to='/gbtu/about'>
               <Button className="bar-button" variant="outlined" size="large">Know Your Rights</Button>
             </Link>
-            <Link to='/gbtu/about'>
+            <Link to='/gbtu/signup'>
               <Button className="bar-button" variant="outlined" size="large">Organize with Us</Button>
             </Link>
             <Link to='/gbtu/about'>

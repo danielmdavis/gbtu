@@ -94,8 +94,12 @@ nav {
   }
   .bar-logo {
     height: 100px;
-    margin: 0px 20px -30px 30px;
+    margin: -10px 15px -40px 25px;
     top: -20px;
+  }
+  .bar-logo:hover {
+    /* border: solid 2px red; */
+    /* top: -20px; */
   }
   .banner-image {
     width: 100%;
@@ -111,6 +115,10 @@ nav {
     left: var(--pos);
     font-size: 70px;
     z-index: -1;
+  }
+  .subtitle-box {
+    max-width: 65%;
+    margin: 0 auto;
   }
   .subtitle {
     color: darkred;

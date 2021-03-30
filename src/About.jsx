@@ -1,10 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './App.css';
 import TopBar from './TopBar.jsx';
 import UnityItem from './UnityItem.jsx';
 import Logo from './GBTU_LOGO_600.png';
 
 function About() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
   return (
     <div className="App">
