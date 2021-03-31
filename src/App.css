@@ -167,7 +167,7 @@ nav {
     width: 45%;
   }
   .title {
-    top: -500px;
+    top: -475px !important;
   }
 }
 
