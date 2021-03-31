@@ -18,8 +18,8 @@ function Landing() {
       <TopBar />
 
       <img className="banner-image" src={TopBanner}/>
-      <h1 className='title'>Change starts at home.</h1>
       <br/>
+      <h1 className='title'>Change starts at home.</h1>
       <h2 className='subtitle'>A shared problem calls for a collective response.</h2>
       <br/><br/>
       <div className='main-box'><div className='main-text'>
