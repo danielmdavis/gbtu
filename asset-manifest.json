@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/gbtu/static/css/main.d8230c58.chunk.css",
-    "main.js": "/gbtu/static/js/main.40cb2695.chunk.js",
-    "main.js.map": "/gbtu/static/js/main.40cb2695.chunk.js.map",
+    "main.js": "/gbtu/static/js/main.246dc907.chunk.js",
+    "main.js.map": "/gbtu/static/js/main.246dc907.chunk.js.map",
     "runtime-main.js": "/gbtu/static/js/runtime-main.007b0e75.js",
     "runtime-main.js.map": "/gbtu/static/js/runtime-main.007b0e75.js.map",
     "static/css/2.9a72e83e.chunk.css": "/gbtu/static/css/2.9a72e83e.chunk.css",
@@ -24,6 +24,6 @@
     "static/css/2.9a72e83e.chunk.css",
     "static/js/2.5862df98.chunk.js",
     "static/css/main.d8230c58.chunk.css",
-    "static/js/main.40cb2695.chunk.js"
+    "static/js/main.246dc907.chunk.js"
   ]
 }
