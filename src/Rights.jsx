@@ -18,18 +18,15 @@ function Rights() {
       <GenericHeader title='Know Your Rights' />
 
       <br/><br/>
+      <br/><br/>
+      <br/><br/>
+      <br/><br/>
 
       <UnityItem
         title='~*'
         body='rights coming soon'
         />
-
-
-
-      <br/><br/>
-      <br/><br/>
-      <img className="bar-logo" src={Logo}/>
-      <br/><br/>
+      
       <br/><br/>
       <br/><br/>
 

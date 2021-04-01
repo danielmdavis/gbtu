@@ -48,20 +48,13 @@ function About() {
         body='Therefore, the goals of decommodification of housing and abolition of police and prisons are inextricable.'
         />
 
-
-
-      <br/><br/>
-      <br/><br/>
       <img className="bar-logo" src={Logo}/>
       <br/><br/>
       <br/><br/>
       <br/><br/>
-
-      <div className='footer'>
-        <div>© 2021 Greater Boston Tenants Union  |  Sindicato de Inquilinos de Boston</div>
-      </div>
-
       <br/><br/>
+
+      <Footer />
 
     </div>
   );

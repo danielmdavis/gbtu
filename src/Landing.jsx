@@ -51,7 +51,6 @@ function Landing() {
       </Link>
       <img className="footer-image" src={BottomBanner}/>
       <br/><br/>
-      <br/><br/>
 
       <Footer />
 

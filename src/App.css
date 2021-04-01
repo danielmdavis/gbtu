@@ -15,6 +15,10 @@ body {
   margin:0;
   padding:0;
 }
+iframe {
+  margin: 0 auto;
+  width: 90%;
+}
 
 .hover-color:hover {
   color: darkred;
@@ -75,7 +79,7 @@ nav {
 .bar-button {
   margin: -10px -12px !important;
   height: 30px;
-  width: 400px;
+  width: 350px;
   font-size: 13.5px !important;
 }
 
@@ -210,5 +214,11 @@ nav {
     padding-top: 2px;
 
   }
-
 }
+
+/* @media only screen and (min-width: 650px) {
+  iframe {
+    margin: 0 auto;
+    width: 90%;
+  }
+} */
