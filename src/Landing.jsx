@@ -41,7 +41,7 @@ function Landing() {
       <Link to='/gbtu/signup'>
         <h3 className='alt-subtitle'>Ready to get involved? Sign up today.</h3>
       </Link>
-      <img className="banner-image" src={BottomBanner}/>
+      <img className="footer-image" src={BottomBanner}/>
       <br/><br/>
       <br/><br/>
 
