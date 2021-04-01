@@ -70,11 +70,27 @@ nav {
   height: 70px;
   margin: -10px;
 }
-.top-bar {
+.bar-logo-small {
+  /* position: fixed; */
+  height: 77px;
+  margin: 0 auto;
+  padding: 5px;
+  /* top: 0px; */
+}
+.top-bar-small {
+  background-color: white !important;
+  box-shadow: 1px 1px 5px .1px #ccc;
+  width: 100%;
+  z-index: 1;
+}
+.top-bar, .top-bar-open {
   background-color: white !important;
   box-shadow: 1px 1px 5px .1px #ccc;
   width: 100%;
   z-index: 2;
+}
+.top-bar {
+  top: -250px;
 }
 .bar-button {
   margin: -10px -12px !important;
@@ -124,6 +140,11 @@ nav {
   }
   .top-bar {
     height: 80px;
+    background-color: white !important;
+    box-shadow: 1px 1px 5px .1px #ccc;
+    width: 100%;
+    z-index: 2;
+    top: 0px;
   }
   .bar-button {
     margin: -10px -12px !important;

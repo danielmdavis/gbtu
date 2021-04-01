@@ -7,6 +7,7 @@ import Button from '@material-ui/core/Button';
 function TopBar() {
 
   return (
+  <div>
     <nav class="top-bar" id="nav-menu">
 
       <div class="top-bar-left">
@@ -35,7 +36,13 @@ function TopBar() {
                   <ul class="submenu menu vertical medium-horizontal" data-submenu></ul>
           </ul>
       </div>
-    </nav>
+  </nav>
+  <div style={{position: 'fixed', justifyContent: 'center'}} className='top-bar-small'>
+    <Link to='/gbtu/'>
+      <img className="bar-logo-small" src={Logo} />
+    </Link>
+  </div>
+</div>
   )
 }
 
