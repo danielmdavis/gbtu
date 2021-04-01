@@ -1,29 +1,30 @@
 {
   "files": {
-    "main.css": "/gbtu/static/css/main.d8230c58.chunk.css",
-    "main.js": "/gbtu/static/js/main.246dc907.chunk.js",
-    "main.js.map": "/gbtu/static/js/main.246dc907.chunk.js.map",
+    "main.css": "/gbtu/static/css/main.37d9e6e7.chunk.css",
+    "main.js": "/gbtu/static/js/main.f773d945.chunk.js",
+    "main.js.map": "/gbtu/static/js/main.f773d945.chunk.js.map",
     "runtime-main.js": "/gbtu/static/js/runtime-main.007b0e75.js",
     "runtime-main.js.map": "/gbtu/static/js/runtime-main.007b0e75.js.map",
     "static/css/2.9a72e83e.chunk.css": "/gbtu/static/css/2.9a72e83e.chunk.css",
-    "static/js/2.5862df98.chunk.js": "/gbtu/static/js/2.5862df98.chunk.js",
-    "static/js/2.5862df98.chunk.js.map": "/gbtu/static/js/2.5862df98.chunk.js.map",
+    "static/js/2.337ae8af.chunk.js": "/gbtu/static/js/2.337ae8af.chunk.js",
+    "static/js/2.337ae8af.chunk.js.map": "/gbtu/static/js/2.337ae8af.chunk.js.map",
     "static/js/3.4ce41491.chunk.js": "/gbtu/static/js/3.4ce41491.chunk.js",
     "static/js/3.4ce41491.chunk.js.map": "/gbtu/static/js/3.4ce41491.chunk.js.map",
     "index.html": "/gbtu/index.html",
     "static/css/2.9a72e83e.chunk.css.map": "/gbtu/static/css/2.9a72e83e.chunk.css.map",
-    "static/css/main.d8230c58.chunk.css.map": "/gbtu/static/css/main.d8230c58.chunk.css.map",
-    "static/js/2.5862df98.chunk.js.LICENSE.txt": "/gbtu/static/js/2.5862df98.chunk.js.LICENSE.txt",
+    "static/css/main.37d9e6e7.chunk.css.map": "/gbtu/static/css/main.37d9e6e7.chunk.css.map",
+    "static/js/2.337ae8af.chunk.js.LICENSE.txt": "/gbtu/static/js/2.337ae8af.chunk.js.LICENSE.txt",
     "static/media/GBTU_LOGO_600.938e37dd.png": "/gbtu/static/media/GBTU_LOGO_600.938e37dd.png",
     "static/media/GBTU_LOGO_600_gray.79caeb1d.png": "/gbtu/static/media/GBTU_LOGO_600_gray.79caeb1d.png",
     "static/media/finebergbannerredux.09814b68.png": "/gbtu/static/media/finebergbannerredux.09814b68.png",
-    "static/media/genericprotestingfade.c54f38db.png": "/gbtu/static/media/genericprotestingfade.c54f38db.png"
+    "static/media/genericprotestingfade.c54f38db.png": "/gbtu/static/media/genericprotestingfade.c54f38db.png",
+    "static/media/southiebanner.efb6554d.png": "/gbtu/static/media/southiebanner.efb6554d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.007b0e75.js",
     "static/css/2.9a72e83e.chunk.css",
-    "static/js/2.5862df98.chunk.js",
-    "static/css/main.d8230c58.chunk.css",
-    "static/js/main.246dc907.chunk.js"
+    "static/js/2.337ae8af.chunk.js",
+    "static/css/main.37d9e6e7.chunk.css",
+    "static/js/main.f773d945.chunk.js"
   ]
 }
