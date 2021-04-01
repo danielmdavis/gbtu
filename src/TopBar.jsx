@@ -14,7 +14,7 @@ function TopBar() {
             <Link to='/gbtu/'>
               <img className="bar-logo" src={Logo} />
             </Link>
-            <Link to='/gbtu/about'>
+            <Link to='/gbtu/rights'>
               <Button className="bar-button" variant="outlined" size="large">Know Your Rights</Button>
             </Link>
             <Link to='/gbtu/signup'>

@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import './App.css';
 import TopBar from './TopBar.jsx';
+import Footer from './Footer.jsx';
 import UnityItem from './UnityItem.jsx';
 import Logo from './GBTU_LOGO_600.png';
 
@@ -35,11 +36,7 @@ function Signup() {
       <br/><br/>
       <br/><br/>
 
-      <div className='footer'>
-        <div>© 2021 Greater Boston Tenants Union  |  Sindicato de Inquilinos de Boston</div>
-      </div>
-
-      <br/><br/>
+      <Footer />
 
     </div>
   );

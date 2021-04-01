@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom';
 import './App.css';
 import TopBar from './TopBar.jsx';
+import Footer from './Footer.jsx';
 import Logo from './GBTU_LOGO_600.png';
 import TopBanner from './genericprotestingfade.png';
 import BottomBanner from './finebergbannerredux.png';
@@ -39,17 +40,20 @@ function Landing() {
       <br/><br/>
       <br/><br/>
       <Link to='/gbtu/signup'>
-        <h3 className='alt-subtitle'>Ready to get involved? Sign up today.</h3>
+        <h3 className='alt-subtitle'>
+          <span className='hover-other'>
+            Ready to get involved?&nbsp;
+            <span>
+              Sign up today.
+            </span>
+          </span>
+        </h3>
       </Link>
       <img className="footer-image" src={BottomBanner}/>
       <br/><br/>
       <br/><br/>
 
-      <div className='footer'>
-        <div>© 2021 Greater Boston Tenants Union  |  Sindicato de Inquilinos de Boston</div>
-      </div>
-
-      <br/><br/>
+      <Footer />
 
     </div>
   );
