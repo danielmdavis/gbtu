@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react';
 import './App.css';
 import { Link } from 'react-router-dom';
 import Logo from './GBTU_LOGO_600_gray.png';
@@ -6,9 +6,15 @@ import Button from '@material-ui/core/Button';
 
 function TopBar() {
 
+  let [menuVisibility, setMenuVisibility] = useState('top-bar')
+
+  async function handleOpen() {
+    setMenuVisibility('top-bar-open')
+  }
+
   return (
   <div>
-    <nav class="top-bar" id="nav-menu">
+    <nav  className={menuVisibility} id="nav-menu">
 
       <div class="top-bar-left">
           <ul class="vertical medium-horizontal dropdown menu" data-dropdown-menu>
@@ -38,9 +44,7 @@ function TopBar() {
       </div>
   </nav>
   <div style={{position: 'fixed', justifyContent: 'center'}} className='top-bar-small'>
-    <Link to='/gbtu/'>
-      <img className="bar-logo-small" src={Logo} />
-    </Link>
+      <img onClick={handleOpen} className="bar-logo-small" src={Logo} />
   </div>
 </div>
   )
