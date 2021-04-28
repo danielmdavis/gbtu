@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/gbtu/static/css/main.dd8afabd.chunk.css",
-    "main.js": "/gbtu/static/js/main.b65cce92.chunk.js",
-    "main.js.map": "/gbtu/static/js/main.b65cce92.chunk.js.map",
+    "main.js": "/gbtu/static/js/main.72331b7d.chunk.js",
+    "main.js.map": "/gbtu/static/js/main.72331b7d.chunk.js.map",
     "runtime-main.js": "/gbtu/static/js/runtime-main.99e351fb.js",
     "runtime-main.js.map": "/gbtu/static/js/runtime-main.99e351fb.js.map",
     "static/css/2.9a72e83e.chunk.css": "/gbtu/static/css/2.9a72e83e.chunk.css",
@@ -17,7 +17,9 @@
     "static/media/GBTU_LOGO_600.938e37dd.png": "/gbtu/static/media/GBTU_LOGO_600.938e37dd.png",
     "static/media/GBTU_LOGO_600_gray.79caeb1d.png": "/gbtu/static/media/GBTU_LOGO_600_gray.79caeb1d.png",
     "static/media/alphacrimes.39e08d7a.png": "/gbtu/static/media/alphacrimes.39e08d7a.png",
+    "static/media/alphalogo.7ad15675.jpg": "/gbtu/static/media/alphalogo.7ad15675.jpg",
     "static/media/finebergbannerredux.09814b68.png": "/gbtu/static/media/finebergbannerredux.09814b68.png",
+    "static/media/gbtulogo.97e0a6f2.png": "/gbtu/static/media/gbtulogo.97e0a6f2.png",
     "static/media/genericprotestingfade.c54f38db.png": "/gbtu/static/media/genericprotestingfade.c54f38db.png",
     "static/media/southiebanner.efb6554d.png": "/gbtu/static/media/southiebanner.efb6554d.png",
     "static/media/tenantpower.994ac5a4.jpeg": "/gbtu/static/media/tenantpower.994ac5a4.jpeg"
@@ -27,6 +29,6 @@
     "static/css/2.9a72e83e.chunk.css",
     "static/js/2.a3591e3a.chunk.js",
     "static/css/main.dd8afabd.chunk.css",
-    "static/js/main.b65cce92.chunk.js"
+    "static/js/main.72331b7d.chunk.js"
   ]
 }
