@@ -21,8 +21,8 @@ function TopBar() {
             <Link to='/gbtu/'>
               <img className="bar-logo" src={Logo} />
             </Link>
-            <Link to='/gbtu/rights'>
-              <Button className="bar-button" variant="outlined" size="large">Know Your Rights</Button>
+            <Link to='/gbtu/fightingretaliation'>
+              <Button className="bar-button" variant="outlined" size="large">Fighting Retaliation</Button>
             </Link>
             <Link to='/gbtu/signup'>
               <Button className="bar-button" variant="outlined" size="large">Organize with Us</Button>

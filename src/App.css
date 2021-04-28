@@ -1,3 +1,9 @@
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 .App {
   text-align: center;
   justify-content: center;
@@ -196,7 +202,7 @@ nav {
   }
 }
 
-@media only screen and (min-width: 975px) {
+@media only screen and (min-width: 1000px) {
 
   .subtitle-box {
     max-width: 65%;
