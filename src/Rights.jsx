@@ -5,9 +5,11 @@ import Footer from './Footer.jsx';
 import UnityItem from './UnityItem.jsx';
 import GenericHeader from './GenericHeader.jsx';
 import Captioned from './Captioned.jsx';
-import Logo from './GBTU_LOGO_600.png';
+// import Logo from './GBTU_LOGO_600.png';
 import TenantPower from './images/tenantpower.jpeg';
 import AlphaCrimes from './images/alphacrimes.png';
+import Logo from './images/gbtulogo.png';
+import AlphaLogo from './images/alphalogo.jpg';
 
 function Rights() {
 
@@ -73,10 +75,30 @@ function Rights() {
         Tenants are right now working to protect themselves from the landlord class that denies tenants’ rights and threatens tenants’ unity. Join the struggle and assert your rights as a tenant. You can get in touch with the Alpha Tenants Union and GBTU through our social media accounts here and here.
       </div></div>
       <br/><br/>
+      <div className='main-box'><div className='main-text'>
+        In solidarity,
+        <br/>
+        Mary Stathos, tenant and organizer
+        <br/>
+        With support from
+      </div></div>
+      <br/>
 
-
+      <div>
+        <img className="bar-logo" src={Logo}/>
+        <img className="bar-logo" src={AlphaLogo}/>
+      </div>
       <br/><br/>
       <br/><br/>
+        <h4 style={{ padding: '9px' }} className='alt-subtitle'>
+          <span className='hover-other'>
+            <span>
+              Download PDF
+            </span>
+          </span>
+        </h4>
+        <br/><br/>
+        <br/><br/>
 
       <Footer />
 
