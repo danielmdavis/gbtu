@@ -17,7 +17,7 @@ class Routes extends Component {
             <Route path="/gbtu/signup" component={Signup} />
             <Route path="/gbtu/fightingretaliation" component={Rights} />
             <Route path="/gbtu/" component={Landing} />
-            <Route path="/*/" component={Landing} />
+            <Route path="/*" component={Landing} />
           </Switch>
         </Router>
       )

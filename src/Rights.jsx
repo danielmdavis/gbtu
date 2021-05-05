@@ -67,7 +67,10 @@ function Rights() {
         Our next steps right now are to send a letter to Alpha Management and Anwar Faisal to let them know that we will not back down, and to continue our organizing to ensure that tenants rights remain at the forefront of our movement. We will continue to fight to hold landlords accountable for providing safe and fair living conditions while we work to create a world without landlords.
       </div></div>
       <br/><br/>
-
+      <div className='main-box'><div className='main-text'>
+        If you are able to support our legal defense, please donate here. Reporting on Mr. Faisal and Alpha Management can be found in The Boston Globe, Boston Magazine, Wicked Local Somerville, and CBS Boston.
+      </div></div>
+      <br/><br/>
       <div className='main-box'><div className='main-text'>
         Tenants are right now working to protect themselves from the landlord class that denies tenants’ rights and threatens tenants’ unity. Join the struggle and assert your rights as a tenant. You can get in touch with the Alpha Tenants Union and GBTU through our social media accounts here and here.
       </div></div>
@@ -87,12 +90,14 @@ function Rights() {
       </div>
       <br/><br/>
       <br/><br/>
-        <h4 style={{ padding: '9px' }} className='subtitle'>
+        <h4 style={{ padding: '9px' }} className='alt-subtitle'>
+          <span className='hover-other'>
             <a href='./PressStatement.pdf' download>
               <span>
                 Download PDF
               </span>
             </a>
+          </span>
         </h4>
         <br/><br/>
         <br/><br/>

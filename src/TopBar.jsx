@@ -30,7 +30,9 @@ function TopBar() {
             <Link to='/gbtu/about'>
               <Button className="bar-button" variant="outlined" size="large">About</Button>
             </Link>
-
+            <Link to='/gbtu/about'>
+              <Button className="bar-button" variant="outlined" size="large">En Español</Button>
+            </Link>
             <ul class="submenu menu vertical medium-horizontal" data-submenu></ul>
           </ul>
       </div>
