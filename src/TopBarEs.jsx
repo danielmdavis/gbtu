@@ -18,20 +18,20 @@ function TopBar() {
 
       <div class="top-bar-left">
           <ul class="vertical medium-horizontal dropdown menu" data-dropdown-menu>
-            <Link to='/gbtu/'>
+            <Link to='/gbtu/es/'>
               <img className="bar-logo" src={Logo} />
             </Link>
-            <Link to='/gbtu/fightingretaliation'>
-              <Button className="bar-button" variant="outlined" size="large">Fighting Retaliation</Button>
+            <Link to='/gbtu/es/fightingretaliation'>
+              <Button className="bar-button-es" variant="outlined" size="large">Contra Las Represalias</Button>
             </Link>
-            <Link to='/gbtu/signup'>
-              <Button className="bar-button" variant="outlined" size="large">Organize with Us</Button>
+            <Link to='/gbtu/es/signup'>
+              <Button className="bar-button-es" variant="outlined" size="large">Organiza con nosotros</Button>
             </Link>
-            <Link to='/gbtu/about'>
-              <Button className="bar-button" variant="outlined" size="large">About</Button>
+            <Link to='/gbtu/es/about'>
+              <Button className="bar-button-es" variant="outlined" size="large">Acerca de</Button>
             </Link>
-            <Link to='/gbtu/es/'>
-              <Button className="bar-button" variant="outlined" size="large">En Español</Button>
+            <Link to='/gbtu/'>
+              <Button className="bar-button-es" variant="outlined" size="large">English</Button>
             </Link>
             <ul class="submenu menu vertical medium-horizontal" data-submenu></ul>
           </ul>
