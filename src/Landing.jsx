@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 import './App.css';
 import TopBar from './TopBar.jsx';
 import Footer from './Footer.jsx';
-import Logo from './GBTU_LOGO_600.png';
-import TopBanner from './genericprotestingfade.png';
-import BottomBanner from './finebergbannerredux.png';
+import Logo from './images/GBTU_LOGO_600.png';
+import TopBanner from './images/finebergtopfade.png';
+import BottomBanner from './images/finebergbannerredux.png';
 import Button from '@material-ui/core/Button';
 
 function Landing() {
@@ -18,7 +18,7 @@ function Landing() {
     <div className="App">
       <TopBar />
 
-      <img className="banner-image" src={TopBanner}/>
+      <img className="banner-image" style={{ opacity: '100%' }} src={TopBanner}/>
       <br/>
       <h1 className='title'>Change starts at home.</h1>
       <h2 className='subtitle'>A shared problem calls for a collective response.</h2>

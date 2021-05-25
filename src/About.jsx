@@ -4,7 +4,7 @@ import TopBar from './TopBar.jsx';
 import Footer from './Footer.jsx';
 import GenericHeader from './GenericHeader.jsx';
 import UnityItem from './UnityItem.jsx';
-import Logo from './GBTU_LOGO_600.png';
+import Logo from './images/GBTU_LOGO_600.png';
 
 function About() {
 

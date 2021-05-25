@@ -198,7 +198,7 @@ nav {
     width: 45%;
   }
   .title, .alt-title {
-    top: -475px !important;
+    top: -350px !important;
   }
 }
 
@@ -227,7 +227,7 @@ nav {
     color: darkred;
     font-weight: bold;
     position: relative;
-    top: -375px;
+    top: -250px;
     left: 100px;
     font-size: 70px;
     z-index: 1;

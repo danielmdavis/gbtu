@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import TopBanner from './southiebanner.png';
+import TopBanner from './images/southiebanner.png';
 
 const GenericHeader = (props) => {
         return (
