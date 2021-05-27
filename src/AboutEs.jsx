@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import './App.css';
 import TopBar from './TopBar.jsx';
+import TopBarEs from './TopBarEs.jsx';
 import Footer from './Footer.jsx';
 import GenericHeader from './GenericHeader.jsx';
 import UnityItem from './UnityItem.jsx';
@@ -14,7 +15,7 @@ function About() {
 
   return (
     <div className="App">
-      <TopBar />
+      <TopBarEs />
       <GenericHeader title='GBTU Princios de Unidad' />
 
       <br/><br/>

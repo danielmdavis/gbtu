@@ -1,12 +1,18 @@
 import React, { useState } from 'react';
 import './App.css';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import Logo from './images/GBTU_LOGO_600_gray.png';
 import Button from '@material-ui/core/Button';
 
 function TopBar() {
 
   let [menuVisibility, setMenuVisibility] = useState('top-bar')
+
+  let currentPath = useLocation();
+  console.log(currentPath.pathname);
+  currentPath = currentPath.pathname.slice(8)
+  const engPath = '/gbtu' + currentPath
+  console.log(engPath);
 
   async function handleOpen() {
     setMenuVisibility('top-bar-open')
@@ -30,7 +36,7 @@ function TopBar() {
             <Link to='/gbtu/es/about'>
               <Button className="bar-button-es" variant="outlined" size="large">Acerca de</Button>
             </Link>
-            <Link to='/gbtu/'>
+            <Link to={engPath}>
               <Button className="bar-button-es" variant="outlined" size="large">English</Button>
             </Link>
             <ul class="submenu menu vertical medium-horizontal" data-submenu></ul>
