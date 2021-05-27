@@ -4,6 +4,7 @@ import Landing from './Landing.jsx';
 import LandingEs from './LandingEs.jsx';
 import About from './About.jsx';
 import Signup from './Signup.jsx';
+import SignupEs from './SignupEs.jsx';
 import Dues from './Dues.jsx';
 import Rights from './Rights.jsx';
 
@@ -15,6 +16,7 @@ class Routes extends Component {
       return (
         <Router>
           <Switch>
+            <Route path="/gbtu/es/signup" component={SignupEs} />
             <Route path="/gbtu/es/" component={LandingEs} />
             <Route path="/gbtu/about" component={About} />
             <Route path="/gbtu/signup" component={Signup} />
