@@ -12,6 +12,7 @@ html, body {
 
 a, ul, li {
   background-color: white !important;
+  color: inherit !important;
 }
 .top-bar-container {
   width: 100%;

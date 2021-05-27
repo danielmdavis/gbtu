@@ -15,37 +15,37 @@ function About() {
   return (
     <div className="App">
       <TopBar />
-      <GenericHeader title='GBTU Principles of Unity' />
+      <GenericHeader title='GBTU Princios de Unidad' />
 
       <br/><br/>
 
       <UnityItem
-        title='Our primary goal is to support the development of tenant-led unions that can be a militant organized force agitating for their own material needs.'
-        body='Though we engage in coalition work, our organizing must be independent of NGOs, foundations, and government-funded groups in order to build power that is responsive to and led by tenants. We are committed to base building, taking leadership from the poorest, and resisting the power of real estate capital that destroys our homes and our communities.'
+        title='Nuestro objetivo principal es apoyar el desarrollo de sindicatos dirigidos por inquilinos que puedan ser una fuerza organizada militante que se movilice por sus propias necesidades materiales.'
+        body='Aunque participamos en el trabajo de coalición, nuestra organización debe ser independiente de las ONG, las fundaciones y los grupos financiados por el gobierno para construir un poder que responda y sea dirigido por los inquilinos. Estamos comprometidos con la construcción de bases, tomando el liderazgo de los más pobres y resistiendo el poder del capital inmobiliario que destruye nuestros hogares y nuestras comunidades.'
         />
       <UnityItem
-        title='Safe, healthy, accessible housing is our collective right.'
-        body='Therefore it cannot be produced or consumed as a commodity. We are for the abolition of the housing market.'
+        title='La vivienda segura, saludable y accesible es nuestro derecho colectivo.'
+        body='Por lo tanto, no se puede producir ni consumir como mercancía. Estamos a favor de la abolición del mercado de la vivienda.'
         />
       <UnityItem
-        title='We are supportive of ‘non-reformist reforms’ that build tenant power or improve the conditions for tenant organizing, and simultaneously diminish the power of the landlord class.'
+        title='Apoyamos las reformas no reformistas que construyen el poder de los inquilinos o mejoran las condiciones para la organización de los inquilinos y, al mismo tiempo, disminuyen el poder de la clase terrateniente.'
         body='This includes good cause eviction protections, right to counsel, expansion of fully public housing and strong rent controls. It does not include expanding private-public partnerships. We distinguish between mobilizing towards these goals, and directly organizing for collective power and recognize the latter as our primary goal as in (2).'
         />
       <UnityItem
-        title='We understand our organizing as anti-racist organizing.'
-        body='In Boston, Black, Latinx and Indigenous communities bear the brunt of suffering caused by real estate capital. The transfer of wealth from Black Americans to White Americans through racist practices such as redlining has had devastating and violent effects, as shown by the nearly thirty year difference in life expectancy between the neighborhoods of Nubian Square and Back Bay. Therefore intervening against the real estate market is intervening to support the organized resistance of Black, Indigenous and Latinx communities.'
+        title='Entendemos nuestra organización como una organización antirracista.'
+        body='En Boston, las comunidades negras, latinas e indígenas son las más afectadas por el sufrimiento causado por el capital inmobiliario. La transferencia de riqueza de los estadounidenses negros a los estadounidenses blancos a través de prácticas racistas como la línea roja ha tenido efectos devastadores y violentos, como lo demuestra la diferencia de casi treinta años en la esperanza de vida entre los vecindarios de Nubian Square y Back Bay. Por lo tanto intervenir contra el mercado inmobiliario es intervenir para apoyar la resistencia organizada de las comunidades negras, indígenas y latinx.'
         />
       <UnityItem
-        title='Our organizing is feminist organizing.'
-        body='Social isolation and housing insecurity brought about by capitalist modes of production of housing provides the conditions for gendered violence against women and LGBQTI people.'
+        title='Nuestra organización es una organización feminista.'
+        body='El aislamiento social y la inseguridad de la vivienda provocados por los modos capitalistas de producción de vivienda proporcionan las condiciones para la violencia de género contra las mujeres y las personas LGBQTI.'
         />
       <UnityItem
-        title='We organize to confront the property-owning (landlord) class, the beneficiary of the current, inhumane housing system.'
-        body='We recognize the United States was created with land that European colonizers stole from indigenous people. The privatization of this land has since enabled the property-owning class to accumulate wealth at the expense of the rest, and they will fight to protect their economic interest.'
+        title='Nos organizamos para enfrentar a la clase propietaria (terrateniente), beneficiaria del inhumano sistema habitacional actual.'
+        body='Reconocemos que Estados Unidos fue creado con tierras que los colonizadores europeos robaron a los pueblos indígenas. Desde entonces, la privatización de esta tierra ha permitido a la clase propietaria acumular riqueza a expensas del resto, y lucharán para proteger sus intereses económicos.'
         />
       <UnityItem
-        title='We recognize that the exploitation of the real estate market cannot exist without the racist violence of the carceral state.'
-        body='Therefore, the goals of decommodification of housing and abolition of police and prisons are inextricable.'
+        title='Reconocemos que la explotación del mercado inmobiliario no puede existir sin la violencia racista del estado carcelario.'
+        body='Por lo tanto, los objetivos de la desmercantilización de la vivienda y la abolición de la policía y las cárceles son inextricables.'
         />
 
       <img className="bar-logo" src={Logo}/>

@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-d
 import Landing from './Landing.jsx';
 import LandingEs from './LandingEs.jsx';
 import About from './About.jsx';
+import AboutEs from './AboutEs.jsx';
 import Signup from './Signup.jsx';
 import SignupEs from './SignupEs.jsx';
 import Dues from './Dues.jsx';
@@ -17,11 +18,12 @@ class Routes extends Component {
         <Router>
           <Switch>
             <Route path="/gbtu/es/signup" component={SignupEs} />
-            <Route path="/gbtu/es/" component={LandingEs} />
+            <Route path="/gbtu/es/about" component={AboutEs} />
             <Route path="/gbtu/about" component={About} />
             <Route path="/gbtu/signup" component={Signup} />
             <Route path="/gbtu/dues" component={Dues} />
             <Route path="/gbtu/fightingretaliation" component={Rights} />
+            <Route path="/gbtu/es/" component={LandingEs} />
             <Route path="/gbtu/" component={Landing} />
             <Route path="/*" component={Landing} />
           </Switch>
