@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import './App.css';
-import TopBar from './TopBar.jsx';
+import TopBar from './TopBarEs.jsx';
 import TopBarEs from './TopBarEs.jsx';
 import Footer from './Footer.jsx';
 import GenericHeader from './GenericHeader.jsx';

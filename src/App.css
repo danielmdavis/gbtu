@@ -173,6 +173,11 @@ nav {
     /* border: solid 2px red; */
     /* top: -20px; */
   }
+  .social-logo {
+    height: 25px;
+    margin: -21px 2px -20px 25px;
+    right: 1px;
+  }
 
   .footer {
     /* border: 2px solid black; */
@@ -199,7 +204,7 @@ nav {
     width: 45%;
   }
   .title, .alt-title {
-    top: -350px !important;
+    top: -375px !important;
   }
 }
 
@@ -236,8 +241,8 @@ nav {
     color: darkred;
     font-weight: bold;
     position: relative;
-    top: -250px;
-    left: 100px;
+    top: -200px;
+    left: 75px;
     font-size: 70px;
     z-index: 1;
   }

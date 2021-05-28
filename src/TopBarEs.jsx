@@ -44,9 +44,7 @@ function TopBar() {
       </div>
 
       <div class="top-bar-right">
-          <ul class="vertical medium-horizontal dropdown menu" data-dropdown-menu>
-                  <ul class="submenu menu vertical medium-horizontal" data-submenu></ul>
-          </ul>
+      
       </div>
   </nav>
   <div style={{position: 'fixed', justifyContent: 'center'}} className='top-bar-small'>

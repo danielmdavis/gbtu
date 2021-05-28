@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import './App.css';
 import { Link, useLocation } from 'react-router-dom';
 import Logo from './images/GBTU_LOGO_600_gray.png';
+import Insta from './images/instaicon.png';
+import Twitter from './images/twittericon.png';
 import Button from '@material-ui/core/Button';
 
 function TopBar() {
@@ -43,9 +45,14 @@ function TopBar() {
       </div>
 
       <div class="top-bar-right">
-          <ul class="vertical medium-horizontal dropdown menu" data-dropdown-menu>
-                  <ul class="submenu menu vertical medium-horizontal" data-submenu></ul>
-          </ul>
+        <div style={{ marginRight: '10px' }}>
+          <a href="https://www.instagram.com/boston_tenants/">
+            <img className="social-logo" src={Insta} />
+          </a>
+          <a href="https://twitter.com/bostontenants">
+            <img className="social-logo" src={Twitter} />
+          </a>
+        </div>
       </div>
   </nav>
   <div style={{position: 'fixed', justifyContent: 'center'}} className='top-bar-small'>
