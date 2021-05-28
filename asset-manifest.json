@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/gbtu/static/css/main.cecbcb7f.chunk.css",
-    "main.js": "/gbtu/static/js/main.f4a0f46b.chunk.js",
-    "main.js.map": "/gbtu/static/js/main.f4a0f46b.chunk.js.map",
+    "main.css": "/gbtu/static/css/main.96608cc6.chunk.css",
+    "main.js": "/gbtu/static/js/main.adcd2684.chunk.js",
+    "main.js.map": "/gbtu/static/js/main.adcd2684.chunk.js.map",
     "runtime-main.js": "/gbtu/static/js/runtime-main.b14867ea.js",
     "runtime-main.js.map": "/gbtu/static/js/runtime-main.b14867ea.js.map",
     "static/css/2.9a72e83e.chunk.css": "/gbtu/static/css/2.9a72e83e.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.facfb6bc.chunk.js.map": "/gbtu/static/js/3.facfb6bc.chunk.js.map",
     "index.html": "/gbtu/index.html",
     "static/css/2.9a72e83e.chunk.css.map": "/gbtu/static/css/2.9a72e83e.chunk.css.map",
-    "static/css/main.cecbcb7f.chunk.css.map": "/gbtu/static/css/main.cecbcb7f.chunk.css.map",
+    "static/css/main.96608cc6.chunk.css.map": "/gbtu/static/css/main.96608cc6.chunk.css.map",
     "static/js/2.c4d581b0.chunk.js.LICENSE.txt": "/gbtu/static/js/2.c4d581b0.chunk.js.LICENSE.txt",
     "static/media/GBTU_LOGO_600.938e37dd.png": "/gbtu/static/media/GBTU_LOGO_600.938e37dd.png",
     "static/media/GBTU_LOGO_600_gray.79caeb1d.png": "/gbtu/static/media/GBTU_LOGO_600_gray.79caeb1d.png",
@@ -28,7 +28,7 @@
     "static/js/runtime-main.b14867ea.js",
     "static/css/2.9a72e83e.chunk.css",
     "static/js/2.c4d581b0.chunk.js",
-    "static/css/main.cecbcb7f.chunk.css",
-    "static/js/main.f4a0f46b.chunk.js"
+    "static/css/main.96608cc6.chunk.css",
+    "static/js/main.adcd2684.chunk.js"
   ]
 }
