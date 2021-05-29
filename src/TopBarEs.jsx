@@ -3,6 +3,7 @@ import './App.css';
 import { Link, useLocation } from 'react-router-dom';
 import Logo from './images/GBTU_LOGO_600_gray.png';
 import Button from '@material-ui/core/Button';
+import SocialBar from './SocialBar.jsx';
 
 function TopBar() {
 
@@ -42,10 +43,8 @@ function TopBar() {
             <ul class="submenu menu vertical medium-horizontal" data-submenu></ul>
           </ul>
       </div>
+      <SocialBar />
 
-      <div class="top-bar-right">
-      
-      </div>
   </nav>
   <div style={{position: 'fixed', justifyContent: 'center'}} className='top-bar-small'>
       <img onClick={handleOpen} className="bar-logo-small" src={Logo} />
