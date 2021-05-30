@@ -98,10 +98,14 @@ nav {
   box-shadow: 1px 1px 5px .1px #ccc;
   width: 100%;
   z-index: 2;
-  top: -250px;
+  top: -350px;
   padding: 5px;
 }
+.top-bar {
+  /* top: 0px; */
+}
 .top-bar-open {
+  top: -250px;
   transition: ease .75s;
   transform: translate(0px, 250px);
 }

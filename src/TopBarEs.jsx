@@ -10,7 +10,6 @@ function TopBar() {
   let [menuVisibility, setMenuVisibility] = useState('top-bar')
 
   let currentPath = useLocation();
-  console.log(currentPath.pathname);
   currentPath = currentPath.pathname.slice(3)
   // currentPath = currentPath.pathname.slice(8)
   // const engPath = '/gbtu' + currentPath

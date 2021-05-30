@@ -13,7 +13,6 @@ function TopBar() {
   // currentPath = currentPath.pathname.slice(5)
   currentPath = currentPath.pathname
   const esPath = 'es' + currentPath
-  console.log(esPath);
 
   async function handleOpen() {
     setMenuVisibility('top-bar-open')

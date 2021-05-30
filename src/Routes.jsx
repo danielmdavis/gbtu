@@ -22,6 +22,7 @@ class Routes extends Component {
             <Route path="/about" component={About} />
             <Route path="/signup" component={Signup} />
             <Route path="/dues" component={Dues} />
+            <Route path="/es/fightingretaliation" component={Rights} />
             <Route path="/fightingretaliation" component={Rights} />
             <Route path="/es/" component={LandingEs} />
             <Route path="/" component={Landing} />
