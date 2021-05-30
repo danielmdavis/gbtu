@@ -10,7 +10,8 @@ function TopBar() {
   let [menuVisibility, setMenuVisibility] = useState('top-bar')
 
   let currentPath = useLocation();
-  currentPath = currentPath.pathname.slice(5)
+  // currentPath = currentPath.pathname.slice(5)
+  currentPath = currentPath.pathname
   const esPath = 'es' + currentPath
   console.log(esPath);
 
@@ -23,16 +24,16 @@ function TopBar() {
     <nav  className={menuVisibility} id="nav-menu">
 
       <ul class="vertical medium-horizontal dropdown menu" data-dropdown-menu>
-        <Link to='/gbtu/'>
+        <Link to='/'>
           <img className="bar-logo" src={Logo} />
         </Link>
-        <Link to='/gbtu/fightingretaliation'>
+        <Link to='/fightingretaliation'>
           <Button className="bar-button" variant="outlined" size="large">Fighting Retaliation</Button>
         </Link>
-        <Link to='/gbtu/signup'>
+        <Link to='/signup'>
           <Button className="bar-button" variant="outlined" size="large">Organize with Us</Button>
         </Link>
-        <Link to='/gbtu/about'>
+        <Link to='/about'>
           <Button className="bar-button" variant="outlined" size="large">About</Button>
         </Link>
         <Link to={esPath}>

@@ -17,14 +17,14 @@ class Routes extends Component {
       return (
         <HashRouter>
           <Switch>
-            <Route path="/gbtu/es/signup" component={SignupEs} />
-            <Route path="/gbtu/es/about" component={AboutEs} />
-            <Route path="/gbtu/about" component={About} />
-            <Route path="/gbtu/signup" component={Signup} />
-            <Route path="/gbtu/dues" component={Dues} />
-            <Route path="/gbtu/fightingretaliation" component={Rights} />
-            <Route path="/gbtu/es/" component={LandingEs} />
-            <Route path="/gbtu/" component={Landing} />
+            <Route path="/es/signup" component={SignupEs} />
+            <Route path="/es/about" component={AboutEs} />
+            <Route path="/about" component={About} />
+            <Route path="/signup" component={Signup} />
+            <Route path="/dues" component={Dues} />
+            <Route path="/fightingretaliation" component={Rights} />
+            <Route path="/es/" component={LandingEs} />
+            <Route path="/" component={Landing} />
             <Route path="/*" component={Landing} />
           </Switch>
         </HashRouter>

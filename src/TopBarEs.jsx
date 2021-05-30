@@ -11,8 +11,10 @@ function TopBar() {
 
   let currentPath = useLocation();
   console.log(currentPath.pathname);
-  currentPath = currentPath.pathname.slice(8)
-  const engPath = '/gbtu' + currentPath
+  currentPath = currentPath.pathname.slice(3)
+  // currentPath = currentPath.pathname.slice(8)
+  // const engPath = '/gbtu' + currentPath
+  const engPath = currentPath
   console.log(engPath);
 
   async function handleOpen() {
@@ -24,16 +26,16 @@ function TopBar() {
     <nav  className={menuVisibility} id="nav-menu">
 
           <ul class="vertical medium-horizontal dropdown menu" data-dropdown-menu>
-            <Link to='/gbtu/es/'>
+            <Link to='/es/'>
               <img className="bar-logo" src={Logo} />
             </Link>
-            <Link to='/gbtu/es/fightingretaliation'>
+            <Link to='/es/fightingretaliation'>
               <Button className="bar-button-es" variant="outlined" size="large">Contra Las Represalias</Button>
             </Link>
-            <Link to='/gbtu/es/signup'>
+            <Link to='/es/signup'>
               <Button className="bar-button-es" variant="outlined" size="large">Organiza con nosotros</Button>
             </Link>
-            <Link to='/gbtu/es/about'>
+            <Link to='/es/about'>
               <Button className="bar-button-es" variant="outlined" size="large">Acerca de</Button>
             </Link>
             <Link to={engPath}>
