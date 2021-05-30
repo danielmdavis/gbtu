@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
+import { BrowserRouter as Router, HashRouter, Route, Switch, Redirect } from 'react-router-dom';
 import Landing from './Landing.jsx';
 import LandingEs from './LandingEs.jsx';
 import About from './About.jsx';
@@ -15,7 +15,7 @@ class Routes extends Component {
   render() {
 
       return (
-        <Router>
+        <HashRouter>
           <Switch>
             <Route path="/gbtu/es/signup" component={SignupEs} />
             <Route path="/gbtu/es/about" component={AboutEs} />
@@ -27,7 +27,7 @@ class Routes extends Component {
             <Route path="/gbtu/" component={Landing} />
             <Route path="/*" component={Landing} />
           </Switch>
-        </Router>
+        </HashRouter>
       )
   }
 }

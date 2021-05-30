@@ -23,7 +23,6 @@ function TopBar() {
   <div>
     <nav  className={menuVisibility} id="nav-menu">
 
-      <div class="top-bar-left">
           <ul class="vertical medium-horizontal dropdown menu" data-dropdown-menu>
             <Link to='/gbtu/es/'>
               <img className="bar-logo" src={Logo} />
@@ -40,9 +39,7 @@ function TopBar() {
             <Link to={engPath}>
               <Button className="bar-button-es" variant="outlined" size="large">English</Button>
             </Link>
-            <ul class="submenu menu vertical medium-horizontal" data-submenu></ul>
           </ul>
-      </div>
       <SocialBar />
 
   </nav>

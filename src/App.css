@@ -45,6 +45,9 @@ iframe {
   margin: 0 auto;
 }
 
+.bar {
+  display: flex;
+}
 .title-bar {
   position:fixed;
   width:100%;
@@ -102,7 +105,10 @@ nav {
   transition: ease .75s;
   transform: translate(0px, 250px);
 }
-.top-bar {
+.social-logo {
+  height: 25px;
+  margin: -21px 2px -20px 25px;
+  right: 1px;
 }
 .bar-button, .bar-button-es {
   margin: -10px -12px !important;
@@ -144,7 +150,7 @@ nav {
 
 
 /* Medium-Up Navigation */
-@media only screen and (min-width: 40rem) {
+@media only screen and (min-width: 48rem) {
 
   .sticky {
   width: 100%;
@@ -173,12 +179,6 @@ nav {
     /* border: solid 2px red; */
     /* top: -20px; */
   }
-  .social-logo {
-    height: 25px;
-    margin: -21px 2px -20px 25px;
-    right: 1px;
-  }
-
   .footer {
     /* border: 2px solid black; */
     /* width: 400px; */
@@ -197,7 +197,6 @@ nav {
 
 }
 
-
 @media only screen and (min-width: 1200px) {
 
   .main-text {
@@ -208,22 +207,24 @@ nav {
   }
 }
 
-@media only screen and (min-width: 1100px) {
+/* max spanish */
+@media only screen and (min-width: 1225px) {
   .bar-button-es {
-    margin: -10px -5px !important;
+    margin: -10px -8px !important;
     width: auto;
     font-size: 16.5px !important;
   }
 }
 
-@media only screen and (min-width: 1000px) {
+/* max english */
+@media only screen and (min-width: 1080px) {
 
   .subtitle-box {
     max-width: 65%;
     margin: 0 auto;
   }
   .bar-button {
-    margin: -10px -5px !important;
+    margin: -10px -8px !important;
     width: auto;
     font-size: 16.5px !important;
   }
