@@ -9,18 +9,18 @@ const Footer = (props) => {
             <br/><br/>
             <div className='footer'>
               <div>© 2021 &nbsp;
-                <Link to='/gbtu/'>
+                <Link to='/'>
                   <span className='hover-color'>Greater Boston Tenants Union</span>
                 </Link>
                  &nbsp; | &nbsp;
-                <Link to='/gbtu/es/'>
+                <Link to='/es/'>
                   <span className='hover-color'>Sindicato de Inquilinos de Boston</span>
                 </Link>
               </div>
-              <div>&nbsp;&nbsp;&nbsp;&nbsp;phone: 617 209 9263</div>
-              <div>&nbsp;&nbsp;&nbsp;&nbsp;email:&nbsp; bostontenants@protonmail.com</div>
+              <div>&nbsp;&nbsp;&nbsp;&nbsp;phone: <span className='hover-color'><a href='tel:6172099263'>617 209 9263</a></span></div>
+              <div>&nbsp;&nbsp;&nbsp;&nbsp;email:&nbsp; <span className='hover-color'><a href='mailto:bostontenants@protonmail.com'>bostontenants@protonmail.com</a></span></div>
               <br/>
-              <div>&nbsp;&nbsp;&nbsp;Greater Boston Legal Services: 617 371 1234</div>
+              <div>&nbsp;&nbsp;&nbsp;Greater Boston Legal Services: <span className='hover-color'><a href='tel:6173711234'>617 371 1234</a></span></div>
             </div>
             <br/><br/>
           </div>

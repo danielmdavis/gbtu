@@ -101,9 +101,6 @@ nav {
   top: -350px;
   padding: 5px;
 }
-.top-bar {
-  /* top: 0px; */
-}
 .top-bar-open {
   top: -250px;
   transition: ease .75s;
@@ -115,7 +112,7 @@ nav {
   right: 1px;
 }
 .bar-button, .bar-button-es {
-  margin: -10px -12px !important;
+  margin: -10px 0px !important;
   height: 30px;
   width: 350px;
   font-size: 13.5px !important;
@@ -151,7 +148,6 @@ nav {
   line-height: 40px;
   font-family: Georgia !important;
 }
-
 
 /* Medium-Up Navigation */
 @media only screen and (min-width: 48rem) {

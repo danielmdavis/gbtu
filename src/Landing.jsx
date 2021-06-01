@@ -33,7 +33,7 @@ function Landing() {
       <br/><br/>
       <br/><br/>
 
-      <Link to='/gbtu/signup'>
+      <Link to='/signup'>
         <h3 className='alt-subtitle'>
           <span className='hover-other'>
             Ready to get involved?&nbsp;

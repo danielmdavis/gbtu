@@ -19,7 +19,7 @@ function TopBar() {
   }
 
   return (
-  <div className="bar">
+  <div>
     <nav  className={menuVisibility} id="nav-menu">
 
       <ul class="vertical medium-horizontal dropdown menu" data-dropdown-menu>
